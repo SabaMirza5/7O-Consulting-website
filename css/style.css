@@ -1,0 +1,1345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.navbar {
+    /* height: 111px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+    /* margin: 44px 13px 30px 48px;
+    width: 110px;
+    max-width: 110px; */
+    margin: 2px 36px 13px 40px;
+    width: 100px;
+}
+.navbar-nav {
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+.shopping-btn {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 16px;
+    border: none;
+    box-shadow: 2px 2px 2px;
+    color: #818a91;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.offcanvas-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.offcanvas hr {
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #f9a825;
+}
+.nav-item .nav-link {
+    padding-left: 27px !important;
+    padding-right: 10px !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    color: black;
+}
+.nav-item .nav-link:hover {
+    border-bottom: 1px solid #FBC02D;
+    text-decoration: none;
+}
+.nav-item .nav-link .fa-phone {
+    font-size: 19px;
+    padding-right: 10px;
+    padding-top: 1px;
+    color: #FBC02D;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu .dropdown-item {
+    font-size: 15px;
+    color: gray;
+    padding: 10px 70px 10px 10px;
+    border-radius: none;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+.dropdown-menu {
+    background-color: white;
+    border: none;
+    border-radius: none !important;
+    box-shadow: 0 0 10px #333;
+    margin-top: 20px;
+}
+/* ======HOME PAGE HEADER SECCTION STYLING START HERE=========== */
+.header-section {
+    background-image: url(../images/bg-img-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.header-main {
+    padding-top: 137px;
+    padding-left: 46px;
+}
+.header-section h1 {
+    font-size: 35px;
+    font-family: 'Poppins';
+    line-height: 43px;
+    font-weight: 500;
+}
+/* .header-button-ancher-1{
+    margin-left: -67px;
+} */
+.header-section p {
+    font-size: 20px;
+    font-family: 'Poppins';
+    line-height: 43px;
+    font-weight: 500;
+}
+.header-button {
+    font-size: 15px;
+    background-color: #FBC02D;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 24px
+}
+.header-button:hover {
+    background-color: #f9a825;
+}
+.header-button-ancher {
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-button-ancher hr {
+    width: 205px;
+    height: 12px;
+    color: #f9a825;
+}
+.header-button-ancher:hover {
+    color: #f9a825 !important;
+}
+.header-block {
+    padding-top: 90px;
+}
+.header-img-1 {
+    width: 100%;
+    border-radius: 0px 100px;
+    border-top: 6px solid #FBC02D;
+    /* padding-top: 0px; */
+}
+.header-img-1-p {
+    padding-top: 65px;
+}
+.header-img-2 {
+    width: 100%;
+    border-radius: 59px 0px;
+    border-top: 6px solid #FBC02D;
+    padding-top: 0px;
+}
+.header-img-2-p {
+    padding-top: 227px;
+    margin-left: -70px;
+}
+.comment-sec {
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-top: 51px;
+}
+.comment-sec h3 {
+    font-size: 18px;
+}
+.header-icon {
+    color: #f9a825;
+}
+/* ======HOME PAGE HEADER SECCTION STYLING END HERE=========== */
+/* ======WHY CHOOSE US SECCTION STYLING START HERE=========== */
+.choose-us-sec {
+    padding-top: 100px;
+}
+.choose-us-sec h2 {
+    color: #8d959b;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+.choose-us-sec h1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.choose-us-sec a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #818a91;
+}
+.choose-us-sec .brdr-left {
+    border-left: 2px solid #818a91;
+}
+.choose-us-sec a:hover {
+    color: #f9a825;
+}
+.choose-us-sec p {
+    padding-top: 30px;
+    color: #818a91;
+    font-size: 15px;
+}
+.box-section {
+    padding-top: 100px;
+}
+.box-section-2 {
+    padding-bottom: 60px;
+}
+.card-box {
+    padding: 65px 66px;
+    border: 1px solid #f1f3f5;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0;
+}
+.card-box:hover {
+    box-shadow: 2px 2px 2px 2px;
+    color: #818a91;
+}
+.card-box h2 {
+    font-size: 21px;
+    color: black;
+    padding-top: 23px;
+}
+/* ======WHY CHOOSE US SECCTION STYLING END HERE=========== */
+/* ======CONSULTATION SECCTION STYLING START HERE=========== */
+.consultation-sec h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.consultation-button {
+    border: 1px solid #f9a825;
+    /* padding: 13px; */
+    padding: 17px 49px;
+    background-color: none;
+    font-size: 13px;
+    /* margin-left: 15px; */
+    border-radius: 4px;
+}
+.progress-bar {
+    background-color: #f9a825;
+    color: black;
+}
+.progress-baar {
+    margin-left: 22px;
+    margin-right: 50px;
+}
+.progress {
+    border: 0;
+    height: 22px;
+}
+.exp {
+    padding-top: 128px;
+    padding-bottom: 100px;
+}
+.digit {
+    font-size: 167px !important;
+    color: #d1cece80 !important;
+    line-height: 1.1rem;
+    margin-left: -43px;
+}
+/* ======CONSULTATION SECCTION STYLING END HERE=========== */
+/* ======QUERY SECCTION STYLING START HERE=========== */
+.query-section {
+    background-color: #e0e7ec;
+}
+.input-feild input {
+    /* padding: 15px 73px 15px 20px;
+    /* padding: 15px 72px 15px 114px; */
+    padding: 15px 20px 15px 52px!important;
+    font-size: 18px;
+    border: 1px solid gainsboro;
+}
+.query-button {
+    width: 100% !important;
+    padding: 15px 0px;
+    font-size: 18px;
+    background-color: #FBC02D;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 88px;
+    margin-top: 30px;
+}
+/* ======QUERY SECCTION STYLING END HERE=========== */
+/* ======OUR COMPANY STYLING START HERE=========== */
+.our-company {
+    padding-top: 100px;
+}
+.our-company h4 {
+    color: #818a91;
+    font-size: 23px;
+    font-weight: 500;
+}
+.our-company h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.our-company p {
+    color: #818a91;
+    font-size: 17px;
+    font-weight: 500;
+}
+.check-our-company {
+    padding-top: 16px;
+}
+.card-row {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+.card-cerasoul {
+    border: 1px solid #818a91;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.card-cerasoul .card-pera {
+    font-size: 18px;
+    color: #818a91;
+}
+.card-cerasoul .position {
+    font-size: 15px;
+    color: #8d959b;
+}
+.card-cerasoul .fa {
+    color: #8d959b;
+}
+/* ======OUR COMPANY STYLING END HERE=========== */
+/* ======FOOTER STYLING START HERE=========== */
+.footer-main {
+    background-image: url(../images/footer-img-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+.footer-img img {
+    width: 130px;
+    height: 72px;
+}
+.footer-img {
+    padding-left: 72px;
+}
+.footer-img h1 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 21px;
+}
+.contact-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-info h5 {
+    font-size: 16px;
+}
+.contact-info p {
+    font-size: 15px;
+    color: #FFFFFF80;
+}
+.contact-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.contact-info a:hover {
+    color: #f9a825;
+}
+.footer-below p {
+    font-size: 15px;
+    color: #FFFFFF80
+}
+.link-heading a {
+    font-size: 15px;
+    color: #FFFFFF80;
+    text-decoration: none;
+    border-left: 1px solid#FFFFFF80;
+    padding-left: 13px;
+}
+.link-heading a:hover {
+    color: white;
+}
+.icons a {
+    color: #FFFFFF80;
+}
+.icons a:hover {
+    color: white;
+}
+/* ======FOOTER STYLING END HERE=========== */
+/* ======PAGES SECTION STYLING START HERE====== */
+.about-section {
+    background-image: url(../images/bg-img-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 67px 34px;
+    margin-top: 138px;
+}
+/* ======PAGES SECTION STYLING END HERE====== */
+/* ======ARTICLE PAGE STYLING START HERE====== */
+.article-section {
+    padding-top: 87px;
+    padding-bottom: 80px;
+}
+.article-section h2 {
+    font-size: 20px;
+}
+.article-section h2:hover {
+    color: #f9a825;
+}
+.article-section a {
+    text-decoration: none;
+}
+.article-section p {
+    font-size: 13px;
+    color: #818a91;
+}
+.article-section h3 {
+    font-size: 15px;
+    color: #818a91;
+}
+.article-button {
+    font-size: 12px;
+    background-color: #FBC02D;
+    border-radius: 4px;
+    border: none;
+    padding: 9px 17px;
+}
+.article-button:hover {
+    background-color: #f9a825;
+}
+/* ======ARTICLE PAGE  STYLING END HERE====== */
+/* ======CONTACT US PAGE  STYLING START HERE====== */
+.contact-class {
+    padding-top: 50px;
+}
+.nmbr-heading {
+    font-size: 30px !important;
+}
+.contact-class p {
+    font-size: 15px;
+    color: #818a91;
+}
+.contact-class h2 {
+    font-size: 18px;
+}
+.input-box {
+    padding: 8px 20px;
+}
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+.contact-form .text-box {
+    color: #fff;
+    height: 45px;
+    border: 1px solid #818a91;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.contact-form .text-box:first-child {
+    margin-right: 15px;
+}
+.contact-form textarea {
+    color: #fff;
+    width: 100%;
+    min-height: 175px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    border: 1px solid #818a91;
+    margin-bottom: 20px;
+}
+/* ======CONTACT US PAGE STYLING END HERE====== */
+/* ======SHOP PAGE STYLING START HERE====== */
+.shop-class {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.shop-class a {
+    text-decoration: none;
+}
+.shop-card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+    border-color: #fff;
+    transition: all ease-in 0.3s;
+}
+.shop-card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px 3px 3px 3px;
+    padding: 30px;
+    border: 1px solid #11181C1F !important;
+}
+.badge {
+    border-radius: 116% !important;
+    background-color: #E53935;
+    padding: 19px;
+    margin: -17px;
+    font-size: 15px;
+    z-index: 67px !important;
+    position: absolute;
+}
+/* ======SHOP PAGE PAGE STYLING END HERE====== */
+/* ====== PAGE STYLING START HERE====== */
+.page-section {
+    background-color: #e0e7ec;
+    padding-bottom: 80px;
+}
+.page-row {
+    padding: 0% !important;
+}
+/* ====== team STYLING START HERE====== */
+.team-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.team-section h4 {
+    color: #818a91;
+    font-size: 20px;
+}
+.team-section h2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+.team-section p {
+    color: #818a91;
+    font-size: 18px;
+}
+.team-section a {
+    text-decoration: none;
+}
+.page-section h1 {
+    font-size: 30px;
+    font-weight: 700;
+    /* padding-top: 100px; */
+}
+.page-forward-section {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.page-forward-section {
+    background-color: #e0e7ec;
+    padding-bottom: 80px;
+}
+.main-page-styling {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.main-page-styling h4 {
+    color: #818a91;
+    font-size: 20px;
+}
+.main-page-styling h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.main-page-styling p {
+    color: #818a91;
+    font-size: 18px;
+}
+.page-super-tag h1 {
+    color: #f9a825;
+    font-size: 51px;
+    font-weight: 600;
+}
+.page-super-tag h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* ======  TEAM STYLING END HERE====== */
+/* ====== PAGE PAGE STYLING END HERE====== */
+/* ====== 404 PAGE STYLING START HERE====== */
+.number-404 {
+    padding-top: 200px;
+}
+.number-404 h1 {
+    font-size: 150px;
+    font-weight: 700;
+}
+.number-404 h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+/* ====== 404PAGE STYLING END HERE====== */
+/* ====== TEAM MEMBER PAGE STYLING START HERE====== */
+.team-member-page-specialist {
+    background-color: #e0e7ec;
+}
+.teacher-section {
+    margin-left: 40px;
+}
+.teacher-section h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.teacher-section h4 {
+    color: #818a91;
+    font-size: 20px;
+    font-weight: 700;
+}
+.teacher-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.teacher-section p {
+    font-size: 15px;
+    color: #818a91;
+}
+.teacher-section-image img {
+    position: sticky;
+    top: 0;
+}
+.list-items li {
+    color: #f9a825;
+}
+.list-items span {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.team-member-page-contact h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.team-member-page-contact p {
+    font-size: 15px;
+    color: #818a91;
+}
+.team-member-page-contact a {
+    font-size: 15px;
+    color: #818a91;
+    background-color: #e0e7ec;
+    padding: 20px;
+    border-radius: 5px;
+}
+.team-member-page-contact a:hover {
+    color: #333;
+}
+.team-member-page-contact {
+    margin-bottom: 107px;
+}
+.team-member-page-contact a .fa-facebook {
+    border-radius: 100px;
+    color: white;
+    background-color: #788178;
+    padding: 3px 6px;
+}
+.team-member-page-contact a .fa-linkedin {
+    border-radius: 7px;
+    color: white;
+    background-color: #788178;
+    padding: 3px 6px;
+}
+/* ======TEAM MEMBER PAGE STYLING END HERE====== */
+/* ======UNDER CONSTRUCTION PAGE STYLING START HERE====== */
+.under-construction-page {
+    background-image: url(../images/bg-img-home.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ======UNDER CONSTRUCTION PAGE STYLING END HERE====== */
+/* ======SYSTEM ANALYTICS PAGE STYLING START HERE====== */
+.system_analytics h3{
+    margin: 40px 0px 50px 0px
+  }
+  .system_analytics h4{
+    margin: 22px 0px 22px 0px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .system_analytics p{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.7em;
+    color: #5f676d;
+  }
+  .system_analytics_sidebar a{
+    text-decoration: none;
+    color: #5f676d; 
+  }
+  .system_analytics_sidebar li{
+    border: 1px solid #e3e3e4;
+    border-radius: 4px;
+  }
+  .system_analytics_sidebar li{
+   padding: 12px 16px;
+  }
+  .system_analytics_sidebar a:hover{
+    color: #f9A825;
+ }
+.system_analytics_sidebar_active{
+     background-color: #f9A825 ;
+    }
+    .system_analytics_sidebar_card{
+        background-image: url(../images/card-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 90px;
+    }
+    .system_analytics_sidebar_card h2{
+        color: #f9A825;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .system_analytics_sidebar_card p{
+       font-size: 15px;
+       font-weight: 500;
+       text-transform: none;
+      }
+.system_analytics_card_detail{
+    padding: 35px;
+}
+.and-more-section  li{
+font-size: 18px;
+font-weight: 400;
+line-height: 2.1em;
+color: #5f676d;
+}
+.and-more-section  h4{
+    font-size: 22px;
+    font-weight: 500;
+    
+    }
+/* ======SYSTEM ANALYTICSPAGE STYLING END HERE====== */
+/* ======MEDIA QUERIES START HERE=========== */
+@media only screen and (max-width: 320px) {
+    .header-main {
+        padding-top: 30px;
+    }
+    .header-section h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .header-section p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-button {
+        font-size: 13px;
+    }
+    .header-img-1-p {
+        padding-top: 29px;
+    }
+    .header-button-ancher {
+        font-size: 13px;
+    }
+    .comment-sec h3 {
+        font-size: 13px;
+    }
+    .choose-us-sec {
+        padding-top: 47px;
+    }
+    .choose-us-sec h2 {
+        font-size: 20px;
+    }
+    .choose-us-sec h1 {
+        font-size: 20px;
+    }
+    /* .choose-us-sec h4 {
+        font-size: 18px!important;
+        font-weight: 500;
+    } */
+    .choose-us-sec a {
+        font-size: 13px;
+    }
+    .choose-us-sec p {
+        font-size: 13px;
+    }
+    .box-section {
+        padding-top: 47px;
+    }
+    .consultation-button {
+        padding: 12px 5px;
+        margin: 9px;
+    }
+    .progress-baar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .progress-baar h5 {
+        font-size: 20px;
+    }
+    .exp {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .our-company {
+        padding-top: 38px;
+    }
+    .our-company h4 {
+        font-size: 20px;
+    }
+    .our-company h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-company p {
+        font-size: 13px;
+    }
+    .card-row {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .card-cerasoul .card-pera {
+        font-size: 13px;
+    }
+    .card-cerasoul .position {
+        font-size: 13px;
+    }
+    .footer-img h1 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin: 14px 0px;
+        width: 100%;
+    }
+    .header-img-2-p {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .digit {
+        margin-left: 0;
+    }
+    .choose-us-sec a {
+        font-size: 10px;
+        padding-top: 47px;
+    }
+    .footer-img {
+        padding-left: 12px;
+    }
+    .input-feild input {
+        padding: 15px 33px 14px 20px;
+    }
+    /* article page styling */
+    .article-button {
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .header-main {
+        padding-top: 30px;
+    }
+    .header-section h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .header-section p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-button {
+        font-size: 13px;
+    }
+    .header-img-1-p {
+        padding-top: 29px;
+    }
+    .header-button-ancher {
+        font-size: 13px;
+    }
+    .comment-sec h3 {
+        font-size: 13px;
+    }
+    .choose-us-sec {
+        padding-top: 47px;
+    }
+    .choose-us-sec h2 {
+        font-size: 20px;
+    }
+    .choose-us-sec h1 {
+        font-size: 20px;
+    }
+    .choose-us-sec a {
+        font-size: 13px;
+    }
+    .choose-us-sec p {
+        font-size: 13px;
+    }
+    .box-section {
+        padding-top: 47px;
+    }
+    .consultation-button {
+        padding: 12px 5px;
+        margin: 9px;
+    }
+    .progress-baar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .progress-baar h5 {
+        font-size: 20px;
+    }
+    .exp {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .our-company {
+        padding-top: 38px;
+    }
+    .our-company h4 {
+        font-size: 20px;
+    }
+    .our-company h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-company p {
+        font-size: 13px;
+    }
+    .card-row {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .card-cerasoul .card-pera {
+        font-size: 13px;
+    }
+    .card-cerasoul .position {
+        font-size: 13px;
+    }
+    .footer-img h1 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin: 14px 0px;
+        width: 100%;
+    }
+    .header-img-2-p {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .digit {
+        margin-left: 0;
+    }
+    .choose-us-sec a {
+        font-size: 10px;
+        padding-top: 47px;
+    }
+    .footer-img {
+        padding-left: 12px;
+    }
+    .input-feild input {
+        padding: 15px 33px 14px 20px;
+    }
+    /* article page styling */
+    .article-button {
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-main {
+        padding-top: 30px;
+    }
+    .header-section h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .header-section p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-button {
+        font-size: 13px;
+    }
+    .header-img-1-p {
+        padding-top: 29px;
+    }
+    .header-button-ancher {
+        font-size: 13px;
+    }
+    .comment-sec h3 {
+        font-size: 13px;
+    }
+    .choose-us-sec {
+        padding-top: 47px;
+    }
+    .choose-us-sec h2 {
+        font-size: 20px;
+    }
+    .choose-us-sec h1 {
+        font-size: 20px;
+    }
+    .choose-us-sec a {
+        font-size: 13px;
+    }
+    .choose-us-sec p {
+        font-size: 13px;
+    }
+    .box-section {
+        padding-top: 47px;
+    }
+    .consultation-button {
+        padding: 12px 5px;
+        margin: 9px;
+    }
+    .progress-baar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .progress-baar h5 {
+        font-size: 20px;
+    }
+    .exp {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .our-company {
+        padding-top: 38px;
+    }
+    .our-company h4 {
+        font-size: 20px;
+    }
+    .our-company h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-company p {
+        font-size: 13px;
+    }
+    .card-row {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .card-cerasoul .card-pera {
+        font-size: 13px;
+    }
+    .card-cerasoul .position {
+        font-size: 13px;
+    }
+    .footer-img h1 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin: 14px 0px;
+        width: 100%;
+    }
+    .header-img-2-p {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .digit {
+        margin-left: 0;
+    }
+    .choose-us-sec a {
+        font-size: 10px;
+        padding-top: 47px;
+    }
+    .footer-img {
+        padding-left: 12px;
+    }
+    .input-feild input {
+        padding: 15px 33px 14px 20px;
+    }
+    /* article page styling */
+    .article-button {
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-main {
+        padding-top: 30px;
+    }
+    .header-section h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .header-section p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-button {
+        font-size: 13px;
+    }
+    .header-img-1-p {
+        padding-top: 29px;
+    }
+    .header-button-ancher {
+        font-size: 13px;
+    }
+    .comment-sec h3 {
+        font-size: 13px;
+    }
+    .choose-us-sec {
+        padding-top: 47px;
+    }
+    .choose-us-sec h2 {
+        font-size: 20px;
+    }
+    .choose-us-sec h1 {
+        font-size: 20px;
+    }
+    .choose-us-sec a {
+        font-size: 13px;
+    }
+    .choose-us-sec p {
+        font-size: 13px;
+    }
+    .box-section {
+        padding-top: 47px;
+    }
+    .consultation-button {
+        padding: 12px 5px;
+        margin: 9px;
+    }
+    .progress-baar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .progress-baar h5 {
+        font-size: 20px;
+    }
+    .exp {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .our-company {
+        padding-top: 38px;
+    }
+    .our-company h4 {
+        font-size: 20px;
+    }
+    .our-company h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-company p {
+        font-size: 13px;
+    }
+    .card-row {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .card-cerasoul .card-pera {
+        font-size: 13px;
+    }
+    .card-cerasoul .position {
+        font-size: 13px;
+    }
+    .footer-img h1 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin: 14px 0px;
+        width: 100%;
+    }
+    .header-img-2-p {
+        padding-top: 106px;
+        margin-left: -43px;
+    }
+    .digit {
+        margin-left: 0;
+        font-size: 107px !important;
+    }
+    .choose-us-sec a {
+        font-size: 10px;
+        padding-top: 47px;
+    }
+    .footer-img {
+        padding-left: 12px;
+    }
+    .input-feild input {
+        padding: 15px 0px 15px 9px;
+    }
+    label {
+        font-size: 9px;
+    }
+}
+
+/* @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .header-main {
+        padding-top: 30px;
+    }
+    .header-section h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .header-section p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-button {
+        font-size: 13px;
+    }
+    .header-img-1-p {
+        padding-top: 29px;
+    }
+    .header-button-ancher {
+        font-size: 13px;
+    }
+    .comment-sec h3 {
+        font-size: 13px;
+    }
+    .choose-us-sec {
+        padding-top: 47px;
+    }
+    .choose-us-sec h2 {
+        font-size: 20px;
+    }
+    .choose-us-sec h1 {
+        font-size: 20px;
+    }
+    .choose-us-sec a {
+        font-size: 13px;
+    }
+    .choose-us-sec p {
+        font-size: 13px;
+    }
+    .box-section {
+        padding-top: 47px;
+    }
+    .consultation-button {
+        padding: 12px 5px;
+        margin: 9px;
+    }
+    .progress-baar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .progress-baar h5 {
+        font-size: 20px;
+    }
+    .exp {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .our-company {
+        padding-top: 38px;
+    }
+    .our-company h4 {
+        font-size: 20px;
+    }
+    .our-company h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-company p {
+        font-size: 13px;
+    }
+    .card-row {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .card-cerasoul .card-pera {
+        font-size: 13px;
+    }
+    .card-cerasoul .position {
+        font-size: 13px;
+    }
+    .footer-img h1 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        margin: 14px 0px;
+        width: 100%;
+    }
+    .header-img-2-p {
+        padding-top: 106px;
+        margin-left: -43px;
+    }
+    .digit {
+        margin-left: 0;
+        font-size: 107px !important;
+    }
+    .choose-us-sec a {
+        font-size: 10px;
+        padding-top: 47px;
+    }
+    .footer-img {
+        padding-left: 12px;
+    }
+    .input-feild input {
+        padding: 15px 0px 15px 9px;
+    }
+} */
+
+@media screen and (max-width: 950px) {
+    .contact-section {
+        flex-direction: column;
+    }
+    .contact-info,
+    .contact-form {
+        margin: 30px 50px;
+    }
+    .contact-form h2 {
+        font-size: 30px;
+    }
+    .contact-form .text-box {
+        width: 100%;
+    }
+}
+/* .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+  }
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
+  } */
